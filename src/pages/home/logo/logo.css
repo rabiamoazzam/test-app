@@ -1,0 +1,58 @@
+.Logo {
+    width: 100%;
+    display: flex;
+    margin: auto;
+    justify-content: space-around;
+    /* grid-template-rows: auto; */
+    /* flex-direction: row; */
+    /* background-color: blueviolet; */
+    /* flex-direction: column; */
+}
+.image img {
+    padding: 2px 2px 2px 2px;
+    border-radius: 50%;
+    width: 6rem;
+   
+
+}
+.Links li{
+    list-style: none;
+}
+.Links{
+    width: 100%;
+
+}
+ .image{
+    width: 20%;
+    text-align: left;
+}
+.Links ul{
+    width: 85%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.Links ul a.active{
+    
+    /* background-color: rgb(197, 23, 23);
+    color: white; */ 
+    color: black;
+    font-weight: bold;
+}
+.Links ul a{
+    padding: 5px 20px;
+    margin: 5px;
+    border-radius: 50px;
+    color: rgb(107, 106, 106);
+    border: none;
+    text-decoration: none;
+    margin: 0px 20px;
+    font-weight: 400;
+
+}
+.icon {
+    display: flex;
+    width: 15%;
+    justify-content: space-around;
+}

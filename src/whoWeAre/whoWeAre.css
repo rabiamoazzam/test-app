@@ -1,0 +1,34 @@
+.whoWeAre {
+    width: 100%;
+    justify-content: space-around;
+    display: flex;
+    padding: 0;
+    margin: 0;
+    margin-top: 4rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-bottom: 4rem;
+}
+.Image img {
+    width: 40%;
+    /* margin-left: 20rem;
+     */
+}
+.WeAre {
+    width: 40%;
+    margin-right: 20rem;
+    text-align: left;
+}
+.Btn {
+    width: 10rem;
+    height: 3rem;
+    padding: 0;
+    margin: 5px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+.Btn:hover {
+    background-color: rgb(61, 60, 60);
+    color: rgb(243, 233, 233);
+}

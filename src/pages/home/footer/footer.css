@@ -1,0 +1,32 @@
+.Footer {
+    width: 100%;
+}
+.footer-body {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    color: white;
+}
+.detail {
+    width: 20%;
+    text-align: left;
+    margin-top: 3rem;
+}
+
+
+.Useful-Links {
+    width: 20%;
+    text-align: left;
+    margin-top: 1rem;
+}
+.Categories {
+    width: 5%;
+    text-align: left;
+    margin-top: 2rem;
+}
+.Email-box {
+    width: 25%;
+    margin-top: 3rem;
+    text-align: center;
+}

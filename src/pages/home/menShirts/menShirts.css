@@ -1,0 +1,19 @@
+.MenShirt {
+    width: 100%;
+}
+/* .shirtss {
+    display: flex;
+    justify-content: space-between;
+} */
+.Card {
+    margin: 19px;
+    display: flex;
+    /* width: 14rem;
+    height: 25rem; */
+    justify-content: space-between;
+    display: flex;
+    box-shadow: 2px 2px 2px 2px rgb(158, 152, 152);
+}
+.Card img {
+    width: 100%;
+}

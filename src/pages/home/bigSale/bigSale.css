@@ -1,0 +1,18 @@
+.bigSale {
+    width: 55%;
+    justify-content: center;
+    margin-left: 12rem;
+    text-align: right;
+    background-image: url(https://img.freepik.com/free-photo/photo-delighted-cheerful-afro-american-woman-with-crisp-hair-points-away-shows-blank-space-happy-advertise-item-sale-wears-orange-jumper-demonstrates-where-clothes-shop-situated_273609-26392.jpg?w=740&t=st=1665907007~exp=1665907607~hmac=a5ba6acb93d40cb5fadda47b2a4c32ae35d7b59519a586a29fbe6fb93b582aa8);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;  
+}
+.shop p{
+    color: rgb(146, 3, 3);
+    font-weight: bold;
+
+}
+.shop {
+    width: 100%;
+    justify-content: center;
+}
