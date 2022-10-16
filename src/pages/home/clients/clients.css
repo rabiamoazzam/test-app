@@ -1,0 +1,22 @@
+/* .Clients {
+    width: 100%;
+}
+.Reviews {
+    width: 100%;
+    justify-content: space-around;
+    display: flex;
+    
+}
+ */
+ .rws img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    /* width: 15rem; */
+}
+.center.rws{
+    opacity: 1 !important;
+}
+.rws{
+    opacity: 0.5;
+}

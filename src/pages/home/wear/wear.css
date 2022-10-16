@@ -1,17 +1,17 @@
 .wear {
-    width: 100%;
     background-color: rgba(77, 71, 71, 0.144);
-    width: 54%;
-    height: 30rem;
-    margin-left: 17rem;
-    justify-content: center;
+    text-align: left !important;
+    
 }
-.container {
-    width: 100%;
-    height: 100%;
-    text-align: left;
-    margin-top: 3rem;
+.wear{
     background-image: url(https://img.freepik.com/free-photo/male-teenager-sitting-ground-leaning-concrete-wall_23-2148205458.jpg?w=740&t=st=1665831938~exp=1665832538~hmac=60b19875ef4cf2f10b6c1e124b2c109a9838517d2a2f57fc89201a95f2297672);
     background-repeat: no-repeat;
-    background-size: 100% 100%;    
+    background-size: cover;
+    background-position: center;
+
+}
+.banner {
+    /* margin-top: 3rem; */
+    padding: 150px 0px;
+        
 }

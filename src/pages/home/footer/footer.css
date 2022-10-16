@@ -1,5 +1,6 @@
 .Footer {
     width: 100%;
+    
 }
 .footer-body {
     width: 100%;
@@ -7,26 +8,51 @@
     justify-content: center;
     background-color: black;
     color: white;
+    padding: 60px 0px;
 }
 .detail {
     width: 20%;
     text-align: left;
-    margin-top: 3rem;
+    /* margin-top: 3rem; */
 }
 
 
 .Useful-Links {
     width: 20%;
     text-align: left;
-    margin-top: 1rem;
+    /* margin-top: 1rem; */
 }
 .Categories {
     width: 5%;
     text-align: left;
-    margin-top: 2rem;
+    /* margin-top: 2rem; */
 }
 .Email-box {
     width: 25%;
-    margin-top: 3rem;
+    /* margin-top: 3rem; */
     text-align: center;
+    padding: 0px;
+    margin: 0px;
+}
+.Email-box button{
+    border: none;
+    /* padding: 0px; */
+    margin: 0px;
+}
+.Email-box input{
+    padding: 0px;
+    margin: 0px;
+}
+
+.Useful-Links li{
+    list-style: none;
+}
+.Useful-Links a{
+    text-decoration: none;
+    color: white;
+
+}
+.cop-rights p {
+    margin: 0px;
+    padding: 0px;
 }

@@ -1,5 +1,6 @@
 import React from 'react';
 import {AiOutlineStar} from 'react-icons/ai'
+import './addtocar.css'
 const AddToCard = (props) => {
     const {image,title,price} = props
 return (

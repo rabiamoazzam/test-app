@@ -1,31 +1,51 @@
-.collection {
-    width: 100%;
-    padding: 0;
-    margin: 0;
-}
-.CARD {
-    display: flex;
-    /* flex-wrap: wrap; */
-}
-.cardss img {
-    width: 100%;
-}
 .CARDSS {
-    width: 30rem;
-    height: 45rem;
     text-align: center;
     color: white;
-    height: 500px;
+    height: 300px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+    margin: auto;
     background-image: url(https://lh3.googleusercontent.com/kls-jkxCT6h-RHUnDkLY4rDxLyU9IIan0j1yVZ9Nx6DC4vJog9J6SwQ6CkAyojaMu9ymXiFrHS4EFYfGErWU4RFtmkBwH1RZfk5twcc30apXk3dMk6wmy5rkh-PRbDa8gr0ERg6D);
 }
-.CARDSS text {
-    text-align: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    color: white;
+
+.cl-one,
+.cl-two,
+.cl-three,
+.cl-four,
+.cl-two-one,
+.cl-two-two,
+.cl-three-one,
+.cl-three-two {
+    height: 300px;
+
+}
+
+.cl-two-one,
+.cl-two-two,
+.cl-three-one,
+.cl-three-two {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.cl-two-one {
+    background-image: url("https://res.cloudinary.com/looksthatwork/image/upload/f_auto,g_auto,w_540,h_680,c_fill,q_75/v1616491123/caesar-cut-men-hairstyles-02_fugm88.jpg");
+}
+
+.cl-two-two {
+    background-image: url("https://images.unsplash.com/photo-1606483956061-46a898dce538?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=773&q=80");
+}
+
+.cl-three-one {
+    background-image:url("https://th.bing.com/th/id/R.d5b5af483c521e4809a879ab03512e5f?rik=CWEcst5iVAHpbw&pid=ImgRaw&r=0")
+}
+.cl-three-two {
+    background-image:url("https://m.media-amazon.com/images/S/aplus-media-library-service-media/be4452d7-7a00-4b6d-9b2d-8929c1e0962a.__CR0,0,300,300_PT0_SX300_V1___.jpg")
+}
+
+.cl-four{
+    background-image: url("https://store-media.mpowerpromo.com/5c7edfd8208c866f6f7c7fd0/pages/6192e3ceee87567c1a0a78ae/CustomTee-1637104591411.jpg");
 }

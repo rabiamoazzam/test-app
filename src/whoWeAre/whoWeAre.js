@@ -1,15 +1,15 @@
 import React from 'react';
 import './whoWeAre.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Button } from 'react-bootstrap';
+import { Button, Col, Container, Row } from 'react-bootstrap';
 function WhoWeAre() {
     return ( 
-        <div>
-            <div className='whoWeAre'>
-                <div className='Image'>
+        <Container>
+            <Row className='whoWeAre'>
+                <Col className='Image'>
                     <img src='https://www.noupe.com/wp-content/uploads/2022/02/katsiaryna-endruszkiewicz-BteCp6aq4GI-unsplash-683x1024.jpg'/>
-                </div>
-                <div className='WeAre'>
+                </Col>
+                <Col className='WeAre'>
                     <h2>WHO WE ARE ?</h2>
                     <span>
                         <p>
@@ -24,9 +24,9 @@ function WhoWeAre() {
                         <button className='Btn'>READ MORE</button>
                         
                     </span>
-                </div>
-            </div>
-        </div>
+                </Col>
+            </Row>
+        </Container>
      );
 }
 

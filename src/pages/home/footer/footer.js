@@ -4,6 +4,7 @@ import {BsFacebook} from 'react-icons/bs'
 import {AiOutlineInstagram} from 'react-icons/ai'
 import {AiFillTwitterCircle} from 'react-icons/ai'
 import {FaSnapchatGhost} from 'react-icons/fa'
+import {SiMinutemailer} from 'react-icons/si'
 function Footer() {
     return ( 
         <div className='Footer'>
@@ -61,11 +62,12 @@ function Footer() {
                     <form action="/actiona-page.phd">
                         {/* <label for="email">Enter your email:</label> */}
                         <input class="email" type="email" id="email" name="email"></input>
-                        <input class="sub-btn" type="Submit" value="subscribe"></input>
+                        <span><button class="sub-btn" type="Submit"><SiMinutemailer/></button></span>
+                                            
                     </form>
                 </div>
             </div>
-            <div>
+            <div className='cop-rights'>
                 <p>© Copyrigth 2022AP Thrift Fasio n All Rigths Reserved</p>
             </div>
         </div>

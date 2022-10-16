@@ -7,6 +7,7 @@ import ItemsCondition from '../src/pages/itemsCondition/itemsCondition.js'
 import PopularBrands from '../src/pages/popularBrands/popularBrands.js'
 import { BrowserRouter, Routes,Route } from 'react-router-dom';
 import Layouts from './layouts/layouts'
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
